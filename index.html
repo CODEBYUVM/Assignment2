@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <from>
+        <p class="heading">Q.1 Reverse A string: </p>
+        Enter A string you Want to Reverse:-<input name="input string" id="inputstring" type="text">
+        <button type="button"  onclick="reversetring()">Reverse</button>
+        <div>
+            <p id="ansstring"></p>
+        </div>
+    </from>
+
+<hr><hr>
+
+    <form>
+        <p class="heading">Q.2 Check Number is Palindrome or Not.</p>
+        Enter A number You Want To check Wether it is Palindrome or not:-<input type="number" id="inputnumber" >
+        <button type="button" onclick="checkpalindrome()">Check</button>
+        <div>
+            <p id="Palindromenum"></p>
+        </div>
+    </form>
+
+<hr><hr>
+
+    <form>
+        <p class="heading">Q.3  Display the total amount to be paid including the Tip.</p>
+
+        Enter A Subtotal of The Bill:-<input class="q3" type="number" id="subtotal"><br>
+        Enter A tip Percentage You Want to Add:-<input type="number" id="tipPercentage">
+        <button type="button" onclick="CalculatetotalAmount()">Generate Total Bill </button>
+        <div>
+            <p id="tip"></p>
+            <p id="Totalamount"></p>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
